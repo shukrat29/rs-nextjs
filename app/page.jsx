@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const HomePage = () => {
   return (
-    <div className="text-2xl font-semibold text-center py-4">Home Page</div>
+    <div>
+      <h1>Welcome</h1>
+      <Link href={"/properties"}>Go To Properties</Link>
+    </div>
   );
 };
 
