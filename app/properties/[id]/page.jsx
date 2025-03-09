@@ -1,5 +1,5 @@
-const AddPropertyPage = () => {
+const PropertyPage = () => {
   return <div>Single Property Page</div>;
 };
 
-export default AddPropertyPage;
+export default PropertyPage;
